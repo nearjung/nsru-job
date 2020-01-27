@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* 
+font-family: 'Itim', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Mitr', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css?family=Itim|Kanit|Mitr|Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+/* Style the header */
+.header {
+  background: #555;
+  color: #f1f1f1;
+}
+
+
+#div_center_login{
+	margin: 40px auto;
+	width: 350px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#div_center_register{
+	margin: 40px auto;
+	width: 350px;
+	font-family: 'Montserrat','Mitr', sans-serif;
+}
+
+#div_login{
+	background-color: #f9f9f9;
+	margin: 0px auto;
+	width: 340px;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}

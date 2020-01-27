@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* 
+font-family: 'Itim', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Mitr', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Athiti', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Athiti|Itim|Kanit|Mitr|Prompt&display=swap');
+
+body{
+	font-family: 'Mitr', sans-serif;
+	font-size: 18px;
+	background-image: url(../images/bodymain.jpg);
+	/* Set a specific height */
+    -webkit-transform: translateZ(-999px) scale(2);
+    transform: translateZ(-999px) scale(2);
+    z-index: 3;
+}
